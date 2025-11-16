@@ -1,0 +1,4 @@
+curl -X POST http://127.0.0.1:5005/invocations ^
+More? -H "Content-Type: application/json" ^
+More? -d "{\"instances\": [{\"Age\": 45, \"Gender\": 1, \"Heart rate\": 80, \"Systolic blood pressure\": 120, \"Diastolic blood pressure\": 80, \"Blood sugar\": 90, \"CK-MB\": 5, \"Troponin\": 0.01}]}"
+{"predictions": [1]}
